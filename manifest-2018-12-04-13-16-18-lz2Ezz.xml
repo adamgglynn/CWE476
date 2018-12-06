@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="104877" type="Source Code" status="Accepted" submissionDate="2013-05-21" language="C++" author="NSA/Center for Assured Software" numberOfFiles="5" testsuiteid="86 108">
+    <description><![CDATA[CWE: 476 NULL Pointer Dereference<br/> BadSource:  Set data to NULL<br/> GoodSource: Initialize data<br/> Sinks:<br/> GoodSink: Check for NULL before attempting to print data<br/> BadSink : Print data<br/> Flow Variant: 74 Data flow: data passed in a map from one function to another in different source files]]></description>
+    <file path="shared/108/io.c" language="C" size="5429" checksum="bcf531cb1922c03347031698c1c72eddadbf0d88"/>
+    <file path="shared/108/std_testcase_io.h" language="C" size="1457" checksum="56de16829d5ac9d8086670ee5098217aa6694d26"/>
+    <file path="shared/108/std_testcase.h" language="C" size="4004" checksum="d1801c64bc49d5d05fb3d55f7cc7e3a925c47e2f"/>
+    <file path="000/104/877/CWE476_NULL_Pointer_Dereference__wchar_t_74b.cpp" language="C++" size="1813" checksum="df149df2b449a59b9ca730f4d3847219ad3f397c">
+      <mixed line="36" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+    <file path="000/104/877/CWE476_NULL_Pointer_Dereference__wchar_t_74a.cpp" language="C++" size="2736" checksum="7bdf3963c5316c7e2e91c50ea785b0663f7d1135"/>
+  </testcase>
+</container>
